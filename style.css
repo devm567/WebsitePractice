@@ -1,0 +1,26 @@
+div > p {
+    color: red;
+}
+div ~ p {
+    color: green; 
+}
+
+.con-item > button {
+    background-color: rgb(0, 234, 255);
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid red;
+    
+}
+
+.con-item > button:hover {
+    background-color: lightgrey;
+}
+
+.container {
+    display:flex;
+    border: 2px solid green;
+    background-color: black;
+    gap:15px;
+    flex-direction: row-reverse;
+}
